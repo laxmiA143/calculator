@@ -1,48 +1,24 @@
 import sys
 
-# -------------------------------------------------------- #
-# -- CALCULATOR FUNCTIONS -------------------------------- #
-# -------------------------------------------------------- #
 
-# Add function
-# a -- addend
-# b -- augend
 
 
 def add(a, b):
     return a + b
 
-# Subtract function
-# a -- minuend
-# b -- subtrahend
-
-
 def sub(a, b):
     return a - b
-
-# Multiply function
-# a -- multiplicand
-# b -- multiplier
 
 
 def mult(a, b):
     return a * b
 
-# Divide function
-# a -- dividend
-# b -- divisor
+
 
 
 def div(a, b):
     return a / b
 
-
-# -------------------------------------------------------- #
-
-
-# -------------------------------------------------------- #
-# -- MAIN FUNCTIONAILTY -- DO NOT EDIT ------------------- #
-# -------------------------------------------------------- #
 
 a = None
 b = None
@@ -77,4 +53,3 @@ while (True):
     if (q == "y" or q == "Y"):
         break
 
-# ------------------------------
